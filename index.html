@@ -153,7 +153,14 @@
                 <input id="searchInput" type="text" placeholder="Search classes..." oninput="filterClasses()">
                 <select id="filterSelect" onchange="filterClasses()">
                     <option value="all">All Semesters</option>
+                    <option value="1st">1st Semester</option>
+                    <option value="2nd">2nd Semester</option>
+                    <option value="3rd">3rd Semester</option>
+                    <option value="4th">4th Semester</option>
+                    <option value="5th">5th Semester</option>
                     <option value="6th">6th Semester</option>
+                    <option value="7th">7th Semester</option>
+                    <option value="8th">8th Semester</option>
                     <option value="myClasses">My Classes (Teacher)</option>
                 </select>
             </section>
@@ -193,7 +200,16 @@
                 <label>Course Name</label>
                 <input id="newCourseName" type="text" placeholder="e.g., Computer Networks">
                 <label>Semester</label>
-                <input id="newSemester" type="text" placeholder="e.g., 6th">
+                <select id="newSemester">
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                    <option value="6th" selected>6th</option>
+                    <option value="7th">7th</option>
+                    <option value="8th">8th</option>
+                </select>
                 <label>Day</label>
                 <input id="newDay" type="text" placeholder="e.g., Monday">
                 <label>Time</label>
